@@ -1,0 +1,11 @@
+{
+  "path": "ru-psk",
+  "code": "RU-PSK",
+  "name": "Pskov Oblast",
+  "level": "region",
+  "parent": "ru",
+  "repo": "https://github.com/lexifina/russia-pskov-law",
+  "build": "catalogue: facts only, no law text (Official Internet Portal of Legal Information metadata)",
+  "language": "ru",
+  "sources": 1
+}
