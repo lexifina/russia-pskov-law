@@ -1,0 +1,112 @@
+{
+ "generated": "2026-11-24T14:38:48Z",
+ "latest": {
+  "pravo-pskov|russia/pskov/acts": {
+   "attempt": 1,
+   "audit": {
+    "examples": [],
+    "match_neither": 0,
+    "match_new": 2,
+    "match_old": 0,
+    "method": "each sampled entry's own record on the portal (/api/Document?eoNumber=...), its title, number and date signed against the listing's",
+    "sampled": 2
+   },
+   "census": {
+    "checked": 1266,
+    "current": 1251,
+    "gone": 0,
+    "held": 1251,
+    "newest_in_repo": "2026-10-30",
+    "pending": 15,
+    "repo": 1251,
+    "source_in_scope": 1266
+   },
+   "check_id": "ru-pravo-pskov-20261124T143522Z",
+   "commits": {
+    "count": 3,
+    "from": "784e250633bdcfc4280db5fbc23ad13f226a7212",
+    "to": "abedc92780c0b7a76bff2064798775be1c1a89b0"
+   },
+   "corpus": "russia/pskov/acts",
+   "error": null,
+   "finished": "2026-11-24T14:38:47Z",
+   "flags": [],
+   "gap": 0,
+   "note": "publication.pravo.gov.ru, block region60: 1266 law-type documents listed (every page read); 1251 held here; 15 published since and not yet here; facts only, no law text (the PDF texts are under /File, which robots.txt disallows)",
+   "outcome": "changed",
+   "published": {
+    "added": [
+     "6000202611100001",
+     "6000202611100002",
+     "6000202611100003",
+     "6000202611100004",
+     "6000202611100005",
+     "6000202611100006",
+     "6000202611110001",
+     "6000202611110002",
+     "6000202611110003",
+     "6000202611110004",
+     "6000202611110006",
+     "6000202611110007",
+     "6000202611110008",
+     "6000202611110009",
+     "6000202611110010"
+    ],
+    "changed": [],
+    "removed": []
+   },
+   "requests": 10,
+   "runner": "lawwatch russia (65e3dde363)",
+   "schema": "lexifina-check/1",
+   "seen": {
+    "added": [
+     "6000202611100001",
+     "6000202611100002",
+     "6000202611100003",
+     "6000202611100004",
+     "6000202611100005",
+     "6000202611100006",
+     "6000202611110001",
+     "6000202611110002",
+     "6000202611110003",
+     "6000202611110004",
+     "6000202611110006",
+     "6000202611110007",
+     "6000202611110008",
+     "6000202611110009",
+     "6000202611110010"
+    ],
+    "changed": [],
+    "removed": []
+   },
+   "snapshot": "1266 law-type documents in block region60; newest published 2026-11-11",
+   "source": "pravo-pskov",
+   "started": "2026-11-24T14:35:22Z",
+   "unexplained": 0,
+   "update": {
+    "append": {
+     "commits": 2,
+     "corrections": null,
+     "extended_acts": [
+      "zakony-2026"
+     ],
+     "new_acts": []
+    },
+    "parts": [
+     "95-watch-20261124-001.json"
+    ]
+   },
+   "verify": {
+    "cycle_days": 1,
+    "examples": [],
+    "held": 12,
+    "method": "the portal's whole listing for the subject (read this check, every page) parsed by the builder (ru_catalogue.parse) and compared, publication day by publication day, with the corpus this repository is built from; each year's newest state rendered by the builder (gitlaw_common) against the files at the tip of main",
+    "ok": true,
+    "swept": 12,
+    "versions_checked": 243,
+    "versions_differ": 0
+   }
+  }
+ },
+ "schema": "lexifina-check/1"
+}

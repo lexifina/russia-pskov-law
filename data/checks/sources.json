@@ -1,0 +1,29 @@
+{
+ "sources": [
+  {
+   "id": "pravo-pskov",
+   "kind": "legislation",
+   "name": {
+    "en": "Pskov Oblast: Official Internet Portal of Legal Information (region60)",
+    "ru": "Pskov Oblast: Официальный интернет-портал правовой информации (region60)"
+   },
+   "url": "http://publication.pravo.gov.ru/documents/block/region60",
+   "reads": {
+    "en": "every page of the subject's law-type documents (metadata API), each check",
+    "ru": "все страницы списка законов субъекта (API метаданных), при каждой проверке"
+   },
+   "folders": [
+    "zakony-<year>/"
+   ],
+   "schedule": "daily",
+   "state": "watched",
+   "corpora": [
+    "russia/pskov/acts"
+   ],
+   "interval": 3.2,
+   "repo": "russia-pskov-law",
+   "group": "pravo",
+   "tz": "Europe/Moscow"
+  }
+ ]
+}
