@@ -1,5 +1,5 @@
 {
- "generated": "2026-11-25T07:02:01Z",
+ "generated": "2026-11-26T06:19:10Z",
  "latest": {
   "pravo-pskov|russia/pskov/acts": {
    "attempt": 1,
@@ -21,11 +21,11 @@
     "repo": 1266,
     "source_in_scope": 1266
    },
-   "check_id": "ru-pravo-pskov-20261125T062713Z",
+   "check_id": "ru-pravo-pskov-20261126T055152Z",
    "commits": null,
    "corpus": "russia/pskov/acts",
    "error": null,
-   "finished": "2026-11-25T06:28:02Z",
+   "finished": "2026-11-26T05:52:26Z",
    "flags": [],
    "gap": 0,
    "note": "publication.pravo.gov.ru, block region60: 1266 law-type documents listed (every page read); 1266 held here; 0 published since and not yet here; facts only, no law text (the PDF texts are under /File, which robots.txt disallows)",
@@ -45,7 +45,7 @@
    },
    "snapshot": "1266 law-type documents in block region60; newest published 2026-11-11",
    "source": "pravo-pskov",
-   "started": "2026-11-25T06:27:13Z",
+   "started": "2026-11-26T05:51:52Z",
    "unexplained": 0,
    "update": {
     "parts": []
