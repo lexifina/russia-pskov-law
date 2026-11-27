@@ -6,7 +6,7 @@ How global-law measures how current every country is: [global-law FRESHNESS.md](
 
 ### Pskov Oblast: Official Internet Portal of Legal Information (region60) · `russia/pskov/acts`
 
-- The official source last read and every act held here checked against it: **2026-11-26 05:52 UTC**.
+- The official source last read and every act held here checked against it: **2026-11-27 05:48 UTC**.
 - Acts held here: 1 266; current at the source: 1 266; changed at the source since the version held here: 0; no longer at the source: 0.
 - Not published: 0 (—); with no reason: 0.
 
